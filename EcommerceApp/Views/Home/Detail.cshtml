@@ -1,0 +1,64 @@
+﻿@model Car
+@{
+    ViewData["Title"] = "Detail Page";
+}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mt-5 p-3">
+            <div class="top-car-list border">
+
+                @foreach(var item in Model.Images)
+                {
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="@item.ImageUrl" alt="@Model.Model" />
+                        </div>
+                    </div>
+                }
+
+
+
+            </div>
+
+        </div>
+
+        <div class="col-md-6 mt-5 p-3">
+            <div class="top-car-list border">
+
+                <ul>
+                    <li>
+                        <strong>Model Name: </strong> @Model.Model
+
+                    </li>
+                    <li>
+                        <strong>Year Of Manufacture: </strong> @Model.YearOfMan
+
+                    </li>
+                    <li>
+                        <strong>Plate Number: </strong> @Model.PlateNumber
+
+                    </li>
+                    <li>
+                        <strong>Chasis Number: </strong> @Model.ChasisNumber
+
+                    </li>
+                    <li>
+                        <strong>Price : </strong> @Model.Price
+
+                    </li>
+                    <li>
+                        <strong>Unit Of Price: </strong> @Model.UnitOfPrice
+
+                    </li>
+                </ul>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</div>

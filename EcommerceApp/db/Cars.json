@@ -1,0 +1,444 @@
+﻿
+  {
+    "Id": "ff577c0d-9306-4efa-9b21-1ce5a69cbe39",
+    "Model": "Suv",
+    "YearOfMan": "2020",
+    "PlateNumber": "FJK-164",
+    "ChasisNumber": "348105",
+    "Color": "brown",
+    "TypeOfCar": "Toyota Corolla",
+    "Mileage": 28978900,
+    "Price": 3500,
+    "UnitOfPrice": "hour",
+    "CreatedAt": "2011-02-14",
+    "Images": [
+      {
+        "Id": "7dfa1ecc-2230-444e-9c7e-955119e42ff5",
+        "CarId": "ff577c0d-9306-4efa-9b21-1ce5a69cbe39",
+        "IsFeature": true,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504339/Suv3_wghcyn.jpg",
+        "CreatedAt": "2016-09-02"
+      },
+      {
+        "Id": "7f0529a0-209d-4778-a34f-5344787135c3",
+        "CarId": "ff577c0d-9306-4efa-9b21-1ce5a69cbe39",
+        "IsFeature": false,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Lexus2_tjjmwl.jpg",
+        "CreatedAt": "2016-08-02"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "8a74daf6-037a-44c5-a1dc-e48f53cf9523",
+        "CarId": "ff577c0d-9306-4efa-9b21-1ce5a69cbe39",
+        "Ratings": 4,
+        "CreatedAt": "2019-04-06"
+      },
+      {
+        "Id": "7746fa0f-9505-4833-a06d-d10f6a66327f",
+        "CarId": "ff577c0d-9306-4efa-9b21-1ce5a69cbe39",
+        "Ratings": 2,
+        "CreatedAt": "2015-06-20"
+      },
+      {
+        "Id": "7adef641-deaf-4a72-8461-315f7a4411b4",
+        "CarId": "ff577c0d-9306-4efa-9b21-1ce5a69cbe39",
+        "Ratings": 4,
+        "CreatedAt": "2015-10-03"
+      }
+    ]
+
+  },
+  {
+    "Id": "a1648269-72cf-42ac-a1db-c3d68e1dfcb8",
+    "Model": "Bmw",
+    "YearOfMan": "2021",
+    "PlateNumber": "AG841K",
+    "ChasisNumber": "231007",
+    "Color": "blue",
+    "TypeOfCar": "Mercedes",
+    "Mileage": 3980868,
+    "Price": 4000,
+    "UnitOfPrice": "hour",
+    "CreatedAt": "2014-04-09",
+    "Images": [
+      {
+        "Id": "aa34fdb7-443e-497d-85e4-ca8c2c562a9d",
+        "CarId": "a1648269-72cf-42ac-a1db-c3d68e1dfcb8",
+        "IsFeature": true,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Bmw_azcyi9.jpg",
+        "CreatedAt": "2018-05-23"
+      },
+      {
+        "Id": "fd08e98e-8763-42c7-bcf2-83a726045492",
+        "CarId": "a1648269-72cf-42ac-a1db-c3d68e1dfcb8",
+        "IsFeature": false,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Bugatti2_vbgtvk.jpg",
+        "CreatedAt": "2019-05-23"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "87d4e856-0b43-4831-8af5-6eeea5b892ea",
+        "CarId": "a1648269-72cf-42ac-a1db-c3d68e1dfcb8",
+        "Ratings": 3,
+        "CreatedAt": "2021-06-14"
+      },
+      {
+        "Id": "cf694e5b-8a57-4f8d-b1e3-0923c7288748",
+        "CarId": "a1648269-72cf-42ac-a1db-c3d68e1dfcb8",
+        "Ratings": 1,
+        "CreatedAt": "2017-11-06"
+      }
+    ]
+
+  },
+  {
+    "Id": "c20a7394-1c68-483f-997e-3ef67bf33565",
+    "Model": "Mercedes",
+    "YearOfMan": "2020",
+    "PlateNumber": "GYD328",
+    "ChasisNumber": "106297",
+    "Color": "brown",
+    "TypeOfCar": "Lexus",
+    "Mileage": 187678854,
+    "Price": 500.0,
+    "UnitOfPrice": "mile",
+    "CreatedAt": "2011-02-14",
+    "Images": [
+      {
+        "Id": "93c71f34-5e54-418e-a113-cd4c0eed7823",
+        "CarId": "c20a7394-1c68-483f-997e-3ef67bf33565",
+        "IsFeature": true,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Lexus2_tjjmwl.jpg",
+        "CreatedAt": "2017-03-22"
+      },
+      {
+        "Id": "713b0716-fc56-41e9-af1d-5ec99db5fda6",
+        "CarId": "c20a7394-1c68-483f-997e-3ef67bf33565",
+        "IsFeature": false,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504336/AudiA53_es49py.jpg",
+        "CreatedAt": "2012-03-22"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "e52d548d-daca-49db-8374-ffd20eaa19a9",
+        "CarId": "c20a7394-1c68-483f-997e-3ef67bf33565",
+        "Ratings": 2,
+        "CreatedAt": "2015-06-20"
+      },
+      {
+        "Id": "c63da761-63a0-4a84-a370-cf1a8354b051",
+        "CarId": "c20a7394-1c68-483f-997e-3ef67bf33565",
+        "Ratings": 4,
+        "CreatedAt": "2015-10-03"
+      }
+    ]
+  },
+  {
+    "Id": "96ce3d3c-8c80-4601-aa85-0bed7e6b70a1",
+    "Model": "Hyundai Elantra",
+    "YearOfMan": "2021",
+    "PlateNumber": "JKE365",
+    "ChasisNumber": "908712",
+    "Color": "Red",
+    "TypeOfCar": "Hyundai",
+    "Mileage": 66646788,
+    "Price": 4000,
+    "UnitOfPrice": "hour",
+    "CreatedAt": "2016-08-14",
+    "Images": [
+      {
+        "Id": "9d1e127d-cabe-4fb1-9539-69c7696d358a",
+        "CarId": "96ce3d3c-8c80-4601-aa85-0bed7e6b70a1",
+        "IsFeature": true,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Lexus2_tjjmwl.jpg",
+        "CreatedAt": "2017-03-22"
+      },
+      {
+        "Id": "7d3b41f7-ccb7-4ab9-acf7-657df1dcea40",
+        "CarId": "96ce3d3c-8c80-4601-aa85-0bed7e6b70a1",
+        "IsFeature": false,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504336/AudiA53_es49py.jpg",
+        "CreatedAt": "2012-03-22"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "ba4ea263-2946-4f3d-8a7c-aa4a6142e253",
+        "CarId": "96ce3d3c-8c80-4601-aa85-0bed7e6b70a1",
+        "Ratings": 2,
+        "CreatedAt": "2015-06-20"
+      },
+      {
+        "Id": "ceeee637-b778-4b1d-901e-f709ed5d902c",
+        "CarId": "96ce3d3c-8c80-4601-aa85-0bed7e6b70a1",
+        "Ratings": 4,
+        "CreatedAt": "2015-10-03"
+      }
+    ]
+  },
+  {
+    "Id": "0ba7d0fd-4f90-4ad7-b1d9-c5e3ff347b02",
+    "Model": "Peugeot 5008",
+    "YearOfMan": "2022",
+    "PlateNumber": "YNC416",
+    "ChasisNumber": "310336",
+    "Color": "White",
+    "TypeOfCar": "Peugeot",
+    "Mileage": 107890543,
+    "Price": 200,
+    "UnitOfPrice": "mile",
+    "CreatedAt": "2018-06-17",
+    "Images": [
+      {
+        "Id": "41e1619d-da33-4644-90b9-8a9a74a593e2",
+        "CarId": "0ba7d0fd-4f90-4ad7-b1d9-c5e3ff347b02",
+        "IsFeature": true,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Ferarri3_lgfo3d.jpg",
+        "CreatedAt": "2015-06-05"
+      },
+      {
+        "Id": "078b888c-aef7-42d4-875d-86261fc069fc",
+        "CarId": "0ba7d0fd-4f90-4ad7-b1d9-c5e3ff347b02",
+        "IsFeature": false,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504336/AudiA5_vweisw.jpg",
+        "CreatedAt": "2015-09-05"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "5098738a-6700-4216-a8cf-83fbefdf94f0",
+        "CarId": "0ba7d0fd-4f90-4ad7-b1d9-c5e3ff347b02",
+        "Ratings": 3,
+        "CreatedAt": "2019-04-06"
+      },
+      {
+        "Id": "96b17671-802d-4448-a968-208855815d2f",
+        "CarId": "0ba7d0fd-4f90-4ad7-b1d9-c5e3ff347b02",
+        "Ratings": 4,
+        "CreatedAt": "2020-04-06"
+      }
+    ]
+
+  },
+  {
+    "Id": "85e0f047-64a3-4020-a11d-6745dbb51111",
+    "Model": "Peugeot 308",
+    "YearOfMan": "2021",
+    "PlateNumber": "EW765U",
+    "ChasisNumber": "804184",
+    "Color": "white",
+    "TypeOfCar": "Peugeot",
+    "Mileage": 18956278,
+    "Price": 400,
+    "UnitOfPrice": "mile",
+    "CreatedAt": "2020-08-16",
+    "Images": [
+      {
+        "Id": "eb571265-758b-4a87-9dd8-4740909abb87",
+        "CarId": "85e0f047-64a3-4020-a11d-6745dbb51111",
+        "IsFeature": true,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Ferarri3_lgfo3d.jpg",
+        "CreatedAt": "2016-03-22"
+      },
+      {
+        "Id": "06c80db2-169d-4254-a327-6a0ed98bcce3",
+        "CarId": "85e0f047-64a3-4020-a11d-6745dbb51111",
+        "IsFeature": false,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504339/Suv4_u39yxu.jpg",
+        "CreatedAt": "2011-03-22"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "449f6f1f-4d8f-4fd6-b8e4-763cab6a10fa",
+        "CarId": "85e0f047-64a3-4020-a11d-6745dbb51111",
+        "Ratings": 4,
+        "CreatedAt": "2015-06-20"
+      },
+      {
+        "Id": "08e42d83-766a-4964-8799-b5500e541eb1",
+        "CarId": "85e0f047-64a3-4020-a11d-6745dbb51111",
+        "Ratings": 5,
+        "CreatedAt": "2015-10-03"
+      }
+    ]
+  },
+  {
+    "Id": "57c23243-f8a5-4c54-8210-b410effc332a",
+    "Model": "Peugeot 308",
+    "YearOfMan": "2021",
+    "PlateNumber": "ZR765U",
+    "ChasisNumber": "803424",
+    "Color": "blue",
+    "TypeOfCar": "Peugeot",
+    "Mileage": 10567854,
+    "Price": 4000,
+    "UnitOfPrice": "hour",
+    "CreatedAt": "2020-08-16",
+    "Images": [
+      {
+        "Id": "8ce672f9-7df1-4099-9d8e-3add4da66d01",
+        "CarId": "85e0f047-64a3-4020-a11d-6745dbb51111",
+        "IsFeature": true,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504338/RoseRouce3_arpnbl.jpg",
+        "CreatedAt": "2017-03-22"
+      },
+      {
+        "Id": "656cdb33-de1e-4b7a-b912-ace8d919dad7",
+        "CarId": "85e0f047-64a3-4020-a11d-6745dbb51111",
+        "IsFeature": false,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504338/RoseRouce_in4z3a.jpg",
+        "CreatedAt": "2016-03-22"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "3f22db70-18e9-4d73-a886-cbdd7b566018",
+        "CarId": "85e0f047-64a3-4020-a11d-6745dbb51111",
+        "Ratings": 4,
+        "CreatedAt": "2015-06-20"
+      },
+      {
+        "Id": "d6c360ab-c49f-479e-bea8-d7cc5e65dc65",
+        "CarId": "85e0f047-64a3-4020-a11d-6745dbb51111",
+        "Ratings": 4,
+        "CreatedAt": "2015-10-03"
+      }
+    ]
+
+  },
+  {
+    "Id": "36e44d40-4588-42bf-991b-1e057721bca6",
+    "Model": "Peugeot 308",
+    "YearOfMan": "2017",
+    "PlateNumber": "ZX515U",
+    "ChasisNumber": "852824",
+    "Color": "blue",
+    "TypeOfCar": "Peugeot",
+    "Mileage": 68689543,
+    "Price": 4000,
+    "UnitOfPrice": "hour",
+    "CreatedAt": "2020-08-16",
+    "Images": [
+      {
+        "Id": "3f22db70-18e9-4d73-a886-aaasssb566018",
+        "CarId": "36e44d40-4588-42bf-991b-1e057721bca6",
+        "IsFeature": true,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504339/Suv2_wkbohh.jpg",
+        "CreatedAt": "2017-03-22"
+      },
+      {
+        "Id": "3f22db70-18e9-4d73-a886-cbdd7b566018",
+        "CarId": "36e44d40-4588-42bf-991b-1e057721bca6",
+        "IsFeature": false,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504338/Lexus5_cui08w.jpg",
+        "CreatedAt": "2016-03-22"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "3f22db70-18e9-4d73-a886-9975766018",
+        "CarId": "36e44d40-4588-42bf-991b-1e057721bca6",
+        "Ratings": 4,
+        "CreatedAt": "2015-06-20"
+      },
+      {
+        "Id": "9bdc1685-906a-482e-893f-2374hs88fd2",
+        "CarId": "36e44d40-4588-42bf-991b-1e057721bca6",
+        "Ratings": 4,
+        "CreatedAt": "2015-10-03"
+      }
+    ]
+  },
+  {
+    "Id": "9b7a34b2-8b84-47b0-8d8d-272108402d17",
+    "Model": "Hyundai Creta",
+    "YearOfMan": "Weber",
+    "PlateNumber": "JJE715",
+    "ChasisNumber": "909012",
+    "Color": "blue",
+    "TypeOfCar": "Hyundai",
+    "Mileage": 286734567,
+    "Price": 7000,
+    "UnitOfPrice": "hour",
+    "CreatedAt": "2016-03-14",
+    "Images": [
+      {
+        "Id": "7dfa1ecc-2230-444e-9c7e-955119e42ff5",
+        "CarId": "9b7a34b2-8b84-47b0-8d8d-272108402d17",
+        "IsFeature": true,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Ferarri4_wwcnnx.jpg",
+        "CreatedAt": "2018-05-23"
+      },
+      {
+        "Id": "8a69e8a1-5915-42f9-91bb-7863bdc88ca4",
+        "CarId": "9b7a34b2-8b84-47b0-8d8d-272108402d17",
+        "IsFeature": false,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504338/Lexus6_aspvmd.jpg",
+        "CreatedAt": "2018-05-23"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "0c75e926-3ba7-4aa1-877e-32deac09da40",
+        "CarId": "9b7a34b2-8b84-47b0-8d8d-272108402d17",
+        "Ratings": 3,
+        "CreatedAt": "2021-06-14"
+      },
+      {
+        "Id": "7c68e8a4-76b7-44d9-9fb0-546ccc3be19b",
+        "CarId": "9b7a34b2-8b84-47b0-8d8d-272108402d17",
+        "Ratings": 4,
+        "CreatedAt": "2017-11-06"
+      }
+    ]
+  },
+  {
+    "Id": "a1747a17-dc08-485d-88a5-49032ac636a5",
+    "Model": "Peugeot 308",
+    "YearOfMan": "2021",
+    "PlateNumber": "ZR425U",
+    "ChasisNumber": "809024",
+    "Color": "blue",
+    "TypeOfCar": "Peugeot",
+    "Mileage": 30089765,
+    "Price": 400,
+    "UnitOfPrice": "hour",
+    "CreatedAt": "2020-08-16",
+    "Images": [
+      {
+        "Id": "e4f24067-1fe8-441c-ab6d-da9731faa366",
+        "CarId": "a1747a17-dc08-485d-88a5-49032ac636a5",
+        "IsFeature": true,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Ferarri5_zyvhyn.jpg",
+        "CreatedAt": "2017-03-22"
+      },
+      {
+        "Id": "e52d548d-daca-49db-8374-ffd20eaa19a9",
+        "CarId": "a1747a17-dc08-485d-88a5-49032ac636a5",
+        "IsFeature": false,
+        "ImageUrl": "https://res.cloudinary.com/djrjrb0a4/image/upload/v1651504337/Lexus_vnmliq.jpg",
+        "CreatedAt": "2016-03-22"
+      }
+    ],
+    "Ratings": [
+      {
+        "Id": "c63da761-63a0-4a84-a370-cf1a8354b051",
+        "CarId": "a1747a17-dc08-485d-88a5-49032ac636a5",
+        "Ratings": 4,
+        "CreatedAt": "2015-06-20"
+      },
+      {
+        "Id": "fe592083-265f-4390-bbed-97a022c255ff",
+        "CarId": "a1747a17-dc08-485d-88a5-49032ac636a5",
+        "Ratings": 4,
+        "CreatedAt": "2015-10-03"
+      }
+    ]
+
+  }
+
+

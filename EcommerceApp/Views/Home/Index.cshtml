@@ -1,0 +1,73 @@
+﻿@model PaginationViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model.Cars)
+        {
+            <div class="col-md-4 mt-5 p-3 h-50 w-50">
+                <div class="top-car-list border">
+                    <a asp-action="Details">
+                        <img src="@item.Image"
+                             alt="@item.Model"
+                             width="330"
+                             height="250" />
+                    </a>
+                    <div class="car-list-text mt-4 px-3">
+                        <a asp-action="#"><h4> @item.Model @item.YearOfMan</h4></a>
+                        <div class="car-list-rate d-flex">
+                            <p><span class="fa fa-star checked mt-1"></span>
+                            @item.Rating
+                            </p>
+                        </div>
+                        <p>@item.Price / @item.UnitOfPrice</p>
+
+                        <a asp-action="Detail" asp-route-id="@item.Id" class="text-danger font-weight-bolder view-details"> View Details<i class="fas fa-chevron-right pl-2 text-center"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        }
+
+
+    </div>
+    <nav aria-label="Page navigation" class="page-navigtion">
+        <ul class="pagination">
+            <li class="page-item d-flex align-items-center">
+                <a href=""><i class="fa fa-chevron-left"></i></a>
+                <a class="page-link ml-2" href="#">
+                    Prev
+                </a>
+            </li>
+            @for (int i = 1; i <= Model.NumberPages; i++)
+            {
+        <li class="page-item ">
+            @if (Model.CurrentPage == i)
+            {
+                <a class="page-link" asp-route-page="@i" style="background-color:blue;">
+                    @i
+                </a>
+            }
+            else
+            {
+                <a class="page-link" asp-route-page="@i">
+                    @i
+                </a>
+            }
+
+        </li>
+            }
+
+            <li class="page-item d-flex align-items-center">
+
+                <a class="page-link mr-2" href="#">
+                    Next
+                </a>
+                <a href=""><i class="fa fa-chevron-right"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+</div>

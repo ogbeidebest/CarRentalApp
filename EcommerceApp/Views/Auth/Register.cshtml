@@ -1,0 +1,49 @@
+﻿
+@model RegisterViewModel
+@{
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+    ViewData["Title"] = "Register";
+}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card my-5">
+                <form class="card-body cardbody-color p-lg-5" asp-controller="Auth" asp-action="Register" method="post">
+                    <div class="text-danger" asp-validation-summary="All"></div>
+                    <h2 class="text-center text-dark mt-5">Register New Account<br><br></h2>
+
+                    <div class="form-floating mb-3 mt-3">
+                        <label asp-for="Fullname" class="label-control"></label>
+                        <input asp-for="Fullname" class="form-control" />
+                        <span asp-validation-for="Fullname" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                        <label asp-for="Email" class="label-control"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3 mt-3">
+                        <label asp-for="Password" class="label-control"></label>
+                        <input asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating mb-3 mt-3">
+                        <label asp-for="Phone" class="label-control"></label>
+                        <input asp-for="Phone" class="form-control" />
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+
+         
+                    <div class="text-center"><button type="submit" class="btn btn-color px-5 mb-5 w-100">Create Account </button></div>
+                    <div class="form-text text-center mb-5 text-dark">
+                        Don't have an existing account? <a href="/Auth/Login" class="signUp-text"> Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

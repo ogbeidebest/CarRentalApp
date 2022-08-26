@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="db\" />
+    <None Remove="Views\Auth\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="db\" />
+    <Folder Include="Views\Auth\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EcommerceCore\EcommerceCore.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
